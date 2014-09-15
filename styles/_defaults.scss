@@ -5,6 +5,7 @@
 // 2. Retina ........... Retina detection mixin
 // 3. Underliner ....... Mixin for underlining links with gradient
 // 4. Breakpoints ...... MQ generator based on slides scale factor
+// 5. Offscreen ........ Mixing for hiding things in accessible way
 // ------------------------------------------------------------------
 
 // Variables
@@ -44,4 +45,17 @@ $yellow:#FAFAC4;
 	@include breakpoint(2 * ($width / $scale) + ($gap / $scale) * 3) {
 		@content;
 		}
+	}
+
+// Offscreen
+
+@mixin offscreen {
+	position:absolute;
+	clip:rect(0 0 0 0);
+	overflow:hidden;
+	margin:-1px;
+	padding:0;
+	width:1px;
+	height:1px;
+	border:none;
 	}
