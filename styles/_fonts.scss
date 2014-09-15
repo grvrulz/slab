@@ -1,0 +1,49 @@
+// ------------------------------------------------------------------
+// Fonts
+// ------------------------------------------------------------------
+// 1. Open Sans ........ Text font
+// 2. Open Sans Light .. Headings font
+// 3. Anka Coder ....... Code font
+// ------------------------------------------------------------------
+
+// Open Sans
+
+@font-face {
+	font-family:Open Sans;
+	src:url(../fonts/open-sans-regular.woff) format('woff');
+	}
+@font-face {
+	font-weight:bold;
+	font-family:Open Sans;
+	src:url(../fonts/open-sans-bold.woff) format('woff');
+	}
+@font-face {
+	font-style:italic;
+	font-family:Open Sans;
+	src:url(../fonts/open-sans-italic.woff) format('woff');
+	}
+@font-face {
+	font-style:italic;
+	font-weight:bold;
+	font-family:Open Sans;
+	src:url(../fonts/open-sans-bold-italic.woff) format('woff');
+	}
+
+// Open Sans Light
+
+@font-face {
+	font-family:Open Sans Light;
+	src:url(../fonts/open-sans-light.woff) format('woff');
+	}
+
+// Anka Coder
+
+@font-face {
+	font-family:'Anka Coder';
+	src:url(../fonts/anka-coder-regular.woff) format('woff');
+	}
+@font-face {
+	font-style:italic;
+	font-family:'Anka Coder';
+	src:url(../fonts/anka-coder-italic.woff) format('woff');
+	}

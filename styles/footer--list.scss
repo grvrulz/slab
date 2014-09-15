@@ -1,0 +1,26 @@
+// ------------------------------------------------------------------
+// Footer List
+// ------------------------------------------------------------------
+
+> footer {
+
+	position:absolute;
+	right:0;
+	bottom:- $height;
+	left:0;
+	display:block;
+	padding:0 96px 0 128px; // TODO
+	background:$yellow;
+	transition:bottom 0.3s;
+
+// 	// Content
+
+// 	mark {
+// 		background:rgba(white, 0.8);
+// 		}
+
+	}
+
+&:hover > footer {
+	bottom:0;
+	}

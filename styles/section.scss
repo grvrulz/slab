@@ -1,0 +1,33 @@
+// ------------------------------------------------------------------
+// Section (Slide)
+// ------------------------------------------------------------------
+
+> section {
+
+	position:relative;
+	z-index:1;
+	overflow:hidden;
+	padding:99px 96px 0 128px;
+	width:$width;
+	height:$height;
+	background:#FFF;
+	font-size:24px;
+
+	// Number
+
+	&:after {
+		position:absolute;
+		left:128px;
+		right:96px;
+		bottom:45px;
+		color:desaturate(lighten($color, 10%), 60%);
+		counter-increment:slide;
+		content:counter(slide);
+		line-height:1;
+		text-align:center;
+		}
+
+	@import 'content';
+	@import 'footer';
+
+	}

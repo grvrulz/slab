@@ -1,0 +1,17 @@
+// ------------------------------------------------------------------
+// Progress Full
+// ------------------------------------------------------------------
+
+.shower__progress {
+
+	position:absolute;
+	left:0;
+	bottom:0;
+	z-index:1;
+	display:block;
+	width:0;
+	height:8px;
+	background:$color;
+	transition:width 0.2s linear;
+
+	}
