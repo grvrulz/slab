@@ -19,6 +19,16 @@ a {
 	text-decoration:none;
 	}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+
 // Caption
 // -------------------------------
 .caption {
@@ -27,7 +37,7 @@ a {
 	padding:0 50px 0 0;
 	color:#555;
 	h1 {
-		font:50px 'Roboto SLab', sans-serif;
+		font:50px 'Roboto SLab', serif;
 		font-weight: 300;
 		}
 	}
@@ -110,7 +120,8 @@ a {
 	// Header
 	h2 {
 		margin:0 0 58px;
-		font:48px/1 'Open Sans Light', sans-serif;
+		font:48px/1 'Roboto Slab', serif;
+		font-weight: 300;
 		}
 	// Text
 	p {
