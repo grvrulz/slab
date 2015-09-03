@@ -115,6 +115,9 @@ a {
 		font-weight: 300;
 		}
 	// Text
+	p.big {
+		font-size: 140%;
+	}
 	p {
 		margin:0 0 48px;
 		}
@@ -313,6 +316,11 @@ a {
 				}
 			}
 		}
+	&.hindi {
+		h2{
+			font-family: 'Ek Mukta' !important;
+		}
+	}
 	// Place
 	.place {
 		position:absolute;
